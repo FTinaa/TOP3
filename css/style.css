@@ -1,0 +1,85 @@
+a {
+    color: rgb(68, 143, 255);
+}
+
+.link-page {
+    display: inline-block;
+    border: 2px solid rgb(68, 143, 255);
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+/* *{
+    border: 1px solid red;
+} */
+span {
+    color: rgb(12, 11, 11);
+}
+
+footer {
+    background-color: black;
+    max-width: 1200px;
+    padding: 40px 32px 40px 32px;
+    margin:auto;
+}
+
+header {
+    background-color: rgb(8, 87, 177);
+    max-width: 1200px;
+    padding: 40px 32px 40px 32px;
+    height: 400px;
+    margin:auto;
+    background-image: url(../img/headerBGTown.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+}
+body {
+    background-color: rgb(216,216,216);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    max-width:1200px;
+    padding: 40px 32px 40px 32px;
+    margin:auto;
+}
+footer span{
+    color: aliceblue;
+}
+.link-page:hover{
+    background-color: rgb(209, 236, 238);
+}
+input{
+    padding: 8px 8px 8px 8px;
+    width: 100%;
+    max-width: 240px;
+    border: 1px solid rgb(8, 87, 177);
+    margin-bottom: 8px;
+}
+button{
+    padding: 8px 8px 8px 8px;
+    background-color: rgb(8, 87, 177);
+    border: 1px solid rgb(8, 87, 177);
+    color: rgb(255, 255, 255);
+    margin: 0 0 8px 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+   button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(8, 87, 177);
+   }
+   a:hover{
+    transition: 0.5s;
+    color: rgb(18, 17, 22);
+   }
+    img{
+        width: 100%;
+    }
+
