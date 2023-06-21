@@ -22,7 +22,7 @@ footer {
     background-color: black;
     max-width: 1200px;
     padding: 40px 32px 40px 32px;
-    margin:auto;
+    margin: auto;
 }
 
 header {
@@ -30,39 +30,45 @@ header {
     max-width: 1200px;
     padding: 40px 32px 40px 32px;
     height: 400px;
-    margin:auto;
+    margin: auto;
     background-image: url(../img/headerBGTown.png);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: aliceblue;
 }
+
 body {
-    background-color: rgb(216,216,216);
+    background-color: rgb(216, 216, 216);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
-section{
+
+section {
     background-color: rgb(255, 255, 255);
-    max-width:1200px;
+    max-width: 1200px;
     padding: 40px 32px 40px 32px;
-    margin:auto;
+    margin: auto;
 }
-footer span{
+
+footer span {
     color: aliceblue;
 }
-.link-page:hover{
+
+.link-page:hover {
     background-color: rgb(209, 236, 238);
 }
-input{
+
+input {
     padding: 8px 8px 8px 8px;
     width: 100%;
     max-width: 240px;
     border: 1px solid rgb(8, 87, 177);
     margin-bottom: 8px;
 }
-button{
+
+button {
     padding: 8px 8px 8px 8px;
     background-color: rgb(8, 87, 177);
     border: 1px solid rgb(8, 87, 177);
@@ -71,15 +77,28 @@ button{
     transition: 0.5s;
     cursor: pointer;
 }
-   button:hover{
+
+button:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(8, 87, 177);
-   }
-   a:hover{
+}
+
+a:hover {
     transition: 0.5s;
     color: rgb(18, 17, 22);
-   }
-    img{
-        width: 100%;
-    }
+}
 
+img {
+    width: 100%;
+    max-width: 700px;
+}
+header.car{
+    background-image: url(../img/headerBGCar.png);
+}
+
+header.animal{
+    background-image: url(../img/headerBGEnimals.png);
+}
+header.flowers{
+    background-image: url(../img/headerBGPlants.png);
+}
